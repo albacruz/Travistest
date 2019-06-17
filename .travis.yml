@@ -10,3 +10,4 @@ deploy:
   app: travistest27
   on:
     repo: albacruz/Travistest
+  skip_cleanup: true
