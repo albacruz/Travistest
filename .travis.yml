@@ -6,7 +6,7 @@
                  - master
  script:
          - npm i
-         - node index.html
+         - node index.js
  cache:
          directories:
                  - node_modules
