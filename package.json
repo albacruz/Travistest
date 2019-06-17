@@ -1,9 +1,23 @@
 {
-  "name": "node-hello-world",
+  "name": "Travistest",
   "version": "1.0.0",
-  "description": "Hello world",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albacruz/Travistest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albacruz/Travistest/issues"
+  },
+  "homepage": "https://github.com/albacruz/Travistest#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
