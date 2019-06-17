@@ -3,3 +3,10 @@ node_js:
   - "7"
 script:
   - npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: iB3RY1tIxXh+lgPVU3wdL/luot3OsjG4Fg+lua6iP7xHl6n3vyf7mJHFLzYvGEWTYnMSbOikVEJvjYMsyHvvHeodbOFZXFBZ7PzZ4ZtS3Wzh/TrVbX9cS/ldzehgr73jOT4qjQkA0RFYzrU6kjSyt2EEVvWrmPI0SwvxN30bZf2ZGKT/itJbUXnHw2yyuQlTnZcprAzLEqSf0wEQd4StprhzAHi6L51oD5/hihpRU8m5vOMw8EAufgDPgeddJvIjV3ZwpkdBjtvqjlnrQCDrjrZNcChriEu0bN6cy+LgFD41kS9AGWFoPLeL753LiYrNn1/wj3bZsuhhvAGXj18wMVfUg3hrXOiKEVoOugfnLhYaU+BoJuZDcUFJqUGrRzFlVjrsT4SzV+4qnF4xJdAZ5h62zhpR/kLVFEt3//wUrzJot3BRnpP+eDW/d2f7iZzgMMbV69fSXEAnk+w8Z4Ftqg9rw6bcbxIVMqvneRBFmKewgVqpS59GpSZFDmALIN53Ch5ABwc8fAZIyQ5LdBePnxHbp/KmfkfwH7WXLIHlwlSx/yS2V3vDi+7ZRtpUI4PsR8LLSv/vWHhtTgAsjvnDHzv1ZLBM4I6cN8d0hQEVX8ZvqndUCmSLttEQNHudnD9MwFfd2BaSs78nSK/2inW699yRnuEUjHT3OUUbroiHqTA=
+  app: travistest27
+  on:
+    repo: albacruz/Travistest
