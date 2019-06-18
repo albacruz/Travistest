@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo Hola mundo"
   },
   "repository": {
     "type": "git",
