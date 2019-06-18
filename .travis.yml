@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - stable
 script:
+  - npm run dos
   - npm run test
 branches:
   only:

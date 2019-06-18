@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "parcel src/index.html"
+    "test": "parcel src/index.html",
+    "dos": "npm install -D parcel"
   },
   "repository": {
     "type": "git",
