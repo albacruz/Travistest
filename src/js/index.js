@@ -1,7 +1,7 @@
 function helloWorld(a, b) {
   console.log(a + b);
-  return a + b;
 }
+helloWorld(4, 7);
 
 module.exports = {
   helloWorld
