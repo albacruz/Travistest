@@ -6,12 +6,13 @@ script:
   - npm run test
 branches:
   only:
-    - deploy
-deploy:
-  local_dir: dist
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  on:
-    branch: deploy
+    - doprueba
+env:
+  global:
+    - REMOTE_PATH=~/Travisprueba/Travistest
+    - REMOTE_USER=aarontolay
+    - REMOTE_HOST=ballena.nicolasacosta.es
+before_intall:
+  - bash scripts/install.sh
+after_install:
+  - bash scripts/deploy.sh
