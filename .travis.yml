@@ -12,7 +12,7 @@ env:
     - REMOTE_PATH=Travisprueba/Travistest
     - REMOTE_USER=aarontolay
     - REMOTE_HOST=ballena.nicolasacosta.es
-before_intall:
+before_install:
   - bash scripts/install.sh
 after_install:
   - bash scripts/deploy.sh
