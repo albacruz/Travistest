@@ -1,4 +1,4 @@
-const { helloWorld } = require("./src/js/index");
+/*const { helloWorld } = require("./src/js/index");
 
 describe("suma", () => {
   it("suma que da 8", () => {
@@ -8,4 +8,4 @@ describe("suma", () => {
   it("suma que da 7", () => {
     expect(helloWorld(4, 4)).toEqual(8);
   });
-});
+});*/
