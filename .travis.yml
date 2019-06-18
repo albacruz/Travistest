@@ -9,7 +9,7 @@ branches:
     - doprueba
 env:
   global:
-    - REMOTE_PATH=~/Travisprueba/Travistest
+    - REMOTE_PATH=/Travisprueba/Travistest
     - REMOTE_USER=aarontolay
     - REMOTE_HOST=ballena.nicolasacosta.es
 before_intall:
