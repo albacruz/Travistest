@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo Hola mundo"
+    "test": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
