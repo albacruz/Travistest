@@ -6,7 +6,7 @@ branches:
     - deploy
 deploy:
   local_dir: dist
-  provides: pages
+  provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
